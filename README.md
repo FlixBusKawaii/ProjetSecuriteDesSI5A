@@ -76,3 +76,48 @@ Le projet contient peu de fonctionnalités mais elles doivent être rigoureuseme
 #### Hébergement
 - Machines virtuelles VMware
 - Containers
+
+
+
+# Installation
+
+1. Cloner le repository
+```bash
+git clone https://github.com/votre-username/votre-projet.git
+cd votre-projet
+```
+
+2. Créer un environnement virtuel
+```bash
+python -m venv venv
+```
+
+3. Activer l'environnement virtuel
+```bash
+# Sur Windows
+.\venv\Scripts\activate
+
+# Sur Unix ou MacOS
+source venv/bin/activate
+```
+
+4. Installer les dépendances
+```bash
+pip install -r requirements.txt
+```
+
+5. Configurer les variables d'environnement
+```bash
+cp .env.example .env
+# Éditer le fichier .env avec vos propres valeurs
+```
+
+6. Initialiser la base de données
+```bash
+flask db upgrade
+```
+
+7. Lancer l'application
+```bash
+flask run
+```
