@@ -1,0 +1,18 @@
+.directory-container {
+    background-color: var(--background-primary);
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .directory-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .directory-container li {
+    background-color: var(--background-secondary);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+  }
