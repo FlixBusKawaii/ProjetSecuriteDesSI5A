@@ -1,0 +1,31 @@
+.admin-container {
+    background-color: var(--background-primary);
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-container li {
+    background-color: var(--background-secondary);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .admin-container li button {
+    background-color: #ff5f56;
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+  
+  .admin-container li button:hover {
+    background-color: #e14d45;
+  }
