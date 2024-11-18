@@ -36,6 +36,14 @@ CREATE TABLE `auth` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `auth`
+--
+
+/*!40000 ALTER TABLE `auth` DISABLE KEYS */;
+INSERT INTO `auth` VALUES (0,'maxi','so6','test','1 Rue de la rue','0123456789','$P$BS9OEKrIIH.QnI6mGxqLT34GH8VmsM/','$P$BS9OEKrIIH.QnI6mGxqLT34GH8VmsM/');
+/*!40000 ALTER TABLE `auth` ENABLE KEYS */;
+
+--
 -- Dumping routines for database 'authentification'
 --
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -48,4 +56,4 @@ CREATE TABLE `auth` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-04 10:45:56
+-- Dump completed on 2024-11-18  9:55:43

@@ -30,6 +30,14 @@ CREATE TABLE `users` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `users`
+--
+
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (0,'jesuisletest');
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+
+--
 -- Dumping routines for database 'users'
 --
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -42,4 +50,4 @@ CREATE TABLE `users` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-04 10:46:07
+-- Dump completed on 2024-11-18  9:55:54
