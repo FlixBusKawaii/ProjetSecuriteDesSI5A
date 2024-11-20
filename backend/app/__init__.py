@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
 import os
 
@@ -6,6 +7,7 @@ db = SQLAlchemy()
 
 def create_app():
     app = Flask(__name__)
+    CORS(app)
     
     # Configuration
     app.config['SECRET_KEY'] = os.environ.get('test-key', 'dev-secret-key-change-in-production')
